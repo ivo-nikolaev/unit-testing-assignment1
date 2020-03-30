@@ -5,15 +5,56 @@
         <link href="StyleSheet.css" rel="stylesheet">   
     </head>
     <body>
+
+<!--Background image-->
+<style>
+    body {
+        /* Photo by Donald Giannatti on Unsplash*/
+      background-image: url('img/satelite.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+
         <section>
             <h1>KEANet</h1>
                 <div>
-                    
-                    <label for="chkInternetConnection">Internet connection</label>
-                    <input type="checkbox" id="chkInternetConnection">
+                    <!--Internet Checkbox-->
+                    <table id = "MainTable">
+                        <tr>
+                          <td width = "20%">
+                            <input type="checkbox" id="chkInternetConnection">
+                           </td>
+                      
+                          <td width = "80%">
+                              <table.......>                   
+                              <label for="chkInternetConnection">Internet connection</label>
+                              
+                            </table>
+                          </td>
+                       </tr>
+                      </table>
+
+                    <!--Phone Lines-->
+                      <table id = "MainTable">
+                        <tr>
+                          <td width = "20%">
+                            <input type="number" id="txtPhoneLines" value="0"size="1">
+                           </td>
+                      
+                          <td width = "80%">
+                              <table.......>                   
+                              <label for="txtPhoneLines">Phone lines</label>
+                              
+                            </table>
+                          </td>
+                       </tr>
+                      </table>
+            
+
                     <br>
-                    <label for="txtPhoneLines">Phone lines:</label>
-                    <input type="number" id="txtPhoneLines" value="0">
+                    
                     <br>
                     <label for="cmbCellPhones">Cell phones:</label>
                     <br>
@@ -40,10 +81,12 @@
                         </tr>
                     </table>
                     <br>
-                    
+                    <div align="center">
+                        <p>Total price: ____ DKK</p>
                         <button class="button button1">BUY NOW!
                         <type="submit">
                         </button>
+                    </div>
                        
 
 
