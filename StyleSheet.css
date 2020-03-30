@@ -17,6 +17,7 @@ h1 {
   table {
     margin: .3em;
     width: 290px;
+    
   }
   
   th {
@@ -26,8 +27,8 @@ h1 {
   td {
     padding-left: .5em;
     padding-right: .5em;
-    border: 2px solid rgb(25, 98, 107);
-    background-color: rgb(191, 196, 176);
+    border: 2px solid rgb(25, 98, 107, 0.1);
+    background-color: rgb(191, 196, 176, 0.1);
   }
   
   #trHeader {
@@ -38,7 +39,7 @@ h1 {
     text-align: center;
   }
   section {
-    background: rgb(191, 196, 176);
+    background: rgb(191, 196, 176, 0.5);
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -113,3 +114,13 @@ h1 {
         background-color: #555555;
         color: white;
       }
+
+      #MainTable {
+        width: 100%;
+        background-color: #D8F0DA;
+        border: 1px;
+        min-width: 100%;
+        position: relative;
+        opacity: 0.97;
+        background: transparent;
+    }
