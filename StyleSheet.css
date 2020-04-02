@@ -6,6 +6,14 @@ h1 {
     
   }
 
+  body {
+    /* Photo by Donald Giannatti on Unsplash*/
+  background-image: url('img/satelite.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
   label {
 	cursor: pointer;
 	color: rgb(61, 30, 30);
